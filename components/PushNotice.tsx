@@ -7,7 +7,6 @@ import { socketInit } from 'store/socket'
 import { useRecoilState, useRecoilValue } from 'recoil'
 import API from 'service/api'
 import { useRouter } from 'next/router'
-import { userInfo } from 'os'
 
 interface PushNoticeModel {}
 interface PushListsModel {
